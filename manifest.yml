@@ -1,0 +1,12 @@
+applications:
+  - path: .
+    name: webScrapingTeste
+    buildpack: null
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    disk_quota: 1024M
+    command: null
+    services:
+      - availability-monitoring-auto
+      - Cloudant NoSQL DB-6t
