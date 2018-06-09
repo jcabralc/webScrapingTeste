@@ -1,5 +1,10 @@
 # Web Scraping with Flask + Scrapy + Cloundant
 
+This is a v1 Web Scraping Test.
+
+In this version we scrap the Star Trek Official Web Site, generate a Json File and sabe the results on the Cloundant Database.
+
+
 ## Prerequisites
 
 You'll need the following:
