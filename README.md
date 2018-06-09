@@ -31,15 +31,23 @@ pip install -r requirements.txt
 
 You need to provide the credentials of Cloudant in our IBM Cloud account. After this you will be able to save the links on the database
 
-Copy your **Cloundant Service Credentials** into **vcap-local.json** file:
+Copy your **Cloundant Service Credentials** into **vcap-local.json** file (you need to create it):
 
     ```
     {
+    "services": {
+      "cloudantNoSQLDB": [
+        {
           "credentials": {
             "username":"XXXXXXXXXX",
             "password":"XXXXXXXXX",
             "host":"XXXXXXXXXX"
+          },
+          "label": "cloudantNoSQLDB"
+        }
+      ]
     }
+  }
     ```
 
 ## 4. Run the app 
